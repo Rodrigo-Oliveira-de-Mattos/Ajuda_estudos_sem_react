@@ -1,0 +1,24 @@
+.container-buttons {
+  display: inline-flex;
+  gap: 4rem;
+  margin-bottom: 3rem;
+
+  button {
+    box-shadow: var(--shadow);
+    border-radius: 100vh;
+    border: none;
+    cursor: pointer;
+    width: 25rem;
+    height: 8rem;
+
+    &.good {
+      background: var(--good-background-color);
+    }
+    &.bad {
+      background: var(--bad-background-color);
+    }
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+}

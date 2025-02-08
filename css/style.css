@@ -1,0 +1,17 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+@import url('./aside.css');
+@import url('./container-calendar/index.css');
+
+body{
+    background: var(--body-background-color);
+    background-repeat: no-repeat;
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 3rem;
+}

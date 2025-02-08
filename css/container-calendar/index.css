@@ -1,0 +1,10 @@
+@import url('./calendar.css');
+@import url('./container-btn.css');
+
+.container-calendar-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}

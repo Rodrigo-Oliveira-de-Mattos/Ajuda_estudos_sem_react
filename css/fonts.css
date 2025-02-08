@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 7.2rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  cursor: default;
+  user-select: none;
+}

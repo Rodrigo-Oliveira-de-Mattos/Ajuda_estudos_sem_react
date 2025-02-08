@@ -1,0 +1,22 @@
+.container-notes {
+  background: var(--components-background-color);
+  box-shadow: var(--shadow);
+  padding: 2.5rem;
+  border-radius: 3rem;
+  width: 40rem;
+  height: 100%;
+
+  .text-notes {
+    height: 100%;
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-primary);
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #4d2d53;
+
+  --body-background-color: linear-gradient(
+    323deg,
+    rgba(255, 221, 246, 1) 0%,
+    rgba(190, 213, 255, 1) 95%,
+    rgba(111, 167, 255, 0.4) 100%
+  );
+
+  --components-background-color: linear-gradient(
+    170deg,
+    rgba(250, 248, 249, 0.8) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  --components-background-color: linear-gradient(
+    170deg,
+    rgba(250, 248, 249, 0.8) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  --good-background-color: linear-gradient(
+    180deg,
+    rgba(85, 246, 101, 0.8) 15%,
+    rgba(85, 246, 101, 0.6) 100%
+  );
+
+  --bad-background-color: linear-gradient(
+    180deg,
+    rgba(255, 50, 50, 0.8) 15%,
+    rgba(255, 50, 50, 0.6) 100%
+  );
+
+  --shadow: 2px 4px 1px 0px rgba(0, 0, 0, 0.15);
+}
